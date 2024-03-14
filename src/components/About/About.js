@@ -17,26 +17,19 @@ function About() {
         <div className="BigCard">
         <ScrollAnimation animateIn="fadeInLeft">
           <Image
-            src="/man-svgrepo-com.svg"
+            src="/pdp.svg"
             alt="man-svgrepo"
           />
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Pedro Muniz</strong>. I'm originally from Brazil and have been living in Canada for the past three years. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
-            </ScrollAnimation>
-
-            <br /><br />
-            
-            <ScrollAnimation animateIn="fadeInLeft">
-            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Systems Technology program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
-            Throughout my studies at BCIT, I had the opportunity to engage in fascinating projects. Notably, I contributed to the development of the RENR Safety App and MyMind, projects that garnered recognition from my colleagues, instructors, and clients alike.
+            Hello! I'm <strong>Abdellah Jouider</strong>, a computer systems engineering student based in Morocco. I'm passionate about solving challenging problems in the world of technology. Currently pursuing my bachelor's degree, I'm eager to learn and grow in this ever-evolving field. From software design to system architecture, I love exploring different aspects of computing. Every project is an opportunity for me to learn and innovate. With a commitment to excellence and a drive for continuous improvement, I'm ready to tackle the challenges of tomorrow and make a positive impact in the tech world.
             </ScrollAnimation>
 
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
+              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development.
               <div className="tagline2">
                 I have become confident using the following technologies:
               </div>
