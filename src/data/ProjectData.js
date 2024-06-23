@@ -36,6 +36,15 @@ export const ProjectList = [
     github_url: "https://github.com/Jouider/cinema-isi",
     demo_url: "",
   },
+  {
+    img: "/bemestar-banner.png",
+    title: "Bemestar",
+    description:
+      "Development of a platform that connects clients with coaching experts.",
+    tech_stack: ["HTML", "CSS","PHP","Bootstrap","Laravel","MySQL" ],
+    github_url: "https://github.com/Jouider/Bemestar",
+    demo_url: "",
+  },
 ];
 
 // --------------------------------------- Skills
