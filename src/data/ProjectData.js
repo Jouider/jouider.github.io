@@ -19,13 +19,31 @@ export const ProjectList = [
     demo_url: "https://www.storymedia.ma/",
   },
   {
-    img: "/stafflex-banner.png",
-    title: "Stafflex Transport",
+    img: "/faciclean.png",
+    title: "Faciclean",
     description:
-      "development of the website for Stafflex Transport, an agency specializing in personal and touristic transportation services.",
-    tech_stack: ["HTML", "CSS","Bootstrap", "Laravel","MySQL"],
-    github_url: "https://github.com/Jouider/stafflextransport",
-    demo_url: "",
+      "Development of the website for Faciclean, a company specializing in professional cleaning services.",
+    tech_stack: ["HTML", "CSS","javascript","Bootstrap"],
+    github_url: "",
+    demo_url: "https://faciclean.ma/",
+  },
+  {
+    img: "/agile5s.png",
+    title: "Agile5s",
+    description:
+      "Development of the website for Agile5S, a leading US-based IT services company specializing in scalable software solutions tailored to unique client needs.",
+    tech_stack: ["HTML", "CSS","javascript","Bootstrap"],
+    github_url: "",
+    demo_url: "https://agile5s.com/",
+  },
+  {
+    img: "/groupsaz.png",
+    title: "Group SAZ",
+    description:
+      "Development of the website for Group SAZ, encompassing sectors like property management, facility management, IT consulting, and aviation.",
+    tech_stack: ["Reactjs"],
+    github_url: "",
+    demo_url: "https://groupsaz.com/",
   },
   {
     img: "/isicinema-banner.png",
@@ -43,6 +61,15 @@ export const ProjectList = [
       "Development of a platform that connects clients with coaching experts.",
     tech_stack: ["HTML", "CSS","PHP","Bootstrap","Laravel","MySQL" ],
     github_url: "https://github.com/Jouider/Bemestar",
+    demo_url: "",
+  },
+  {
+    img: "/stafflex-banner.png",
+    title: "Stafflex Transport",
+    description:
+      "development of the website for Stafflex Transport, an agency specializing in personal and touristic transportation services.",
+    tech_stack: ["HTML", "CSS","Bootstrap", "Laravel","MySQL"],
+    github_url: "https://github.com/Jouider/stafflextransport",
     demo_url: "",
   },
 ];
