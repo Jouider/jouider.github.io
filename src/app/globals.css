@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand: #1F4BFF;
+  --color-brand-dark: #1640cc;
+  --color-accent: #B8E26A;
+  --color-accent-dark: #9FCC4E;
+  --color-primary: #0B1B2B;
+  --color-secondary: #6B7280;
+  --color-bg: #FFFFFF;
+  --color-surface: #F9FAFB;
+  --color-border: #E5E7EB;
+}
+
+:root {
+  --background: #FFFFFF;
+  --text-primary: #0B1B2B;
+  --brand-primary: #1F4BFF;
+  --brand-dark: #1640cc;
+  --text-secondary: #6B7280;
+  --accent: #B8E26A;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 17px;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans, system-ui, sans-serif);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: #fff;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, var(--brand-primary), var(--text-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Button gradients matching DigiToYou */
+.btn-gradient-accent {
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark, #9FCC4E));
+  color: var(--text-primary);
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-gradient-accent:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 30px rgba(184, 226, 106, 0.3);
+}
+
+.btn-gradient-brand {
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-dark));
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-gradient-brand:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 30px rgba(31, 75, 255, 0.25);
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Section backgrounds */
+.gradient-bg-hero {
+  background: linear-gradient(180deg, #F0F4FF 0%, #FFFFFF 100%);
+}
+
+.gradient-bg-section {
+  background: linear-gradient(180deg, #F9FAFB 0%, #FFFFFF 100%);
+}
+
+.gradient-bg-cta {
+  background: linear-gradient(135deg, #0B1B2B 0%, #1a2d4a 100%);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-primary);
+}
+
+/* Card hover glow */
+.card-glow {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-glow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(31, 75, 255, 0.05), transparent);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.card-glow:hover::before {
+  opacity: 1;
+}
